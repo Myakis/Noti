@@ -28,6 +28,8 @@ export const Notification: FC<INotificationWithId> = ({
 	classNameNotification,
 	autoDeletion = true,
 }) => {
+
+	//ПРЕВЕД
 	const { remove } = useNotification();
 
 	const [inProp, setInProp] = useState<boolean>(true);
